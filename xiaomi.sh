@@ -65,7 +65,11 @@ RemoveGoogle () {
     adb shell pm uninstall --user 0 com.google.ar.lens
     adb shell pm uninstall --user 0 com.google.android.apps.wellbeing
     adb shell pm uninstall --user 0 com.google.android.apps.tachyon
+    adb shell pm uninstall --user 0 com.google.android.apps.walletnfcrel
+    # Android
     adb shell pm uninstall --user 0 com.android.soundrecorder
+    adb shell pm uninstall --user 0 com.android.stk
+    adb shell pm uninstall --user 0 com.android.chrome
 }
 
 RemoveXiaomi () {
@@ -74,6 +78,7 @@ RemoveXiaomi () {
     adb shell pm uninstall --user 0 com.xiaomi.midrop
     adb shell pm uninstall --user 0 com.miui.weather2
     adb shell pm uninstall --user 0 com.miui.player
+    adb shell pm uninstall --user 0 com.miui.videoplayer
     adb shell pm uninstall --user 0 com.mi.globalbrowser
     adb shell pm uninstall --user 0 com.miui.compass
     adb shell pm uninstall --user 0 com.xiaomi.glgm
